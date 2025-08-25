@@ -1,0 +1,38 @@
+
+Grad clip: combats exploding gradients, tying back to the original RNN pathology.
+
+Weight tying: decoder weight = embedding weight (optional but useful on small corpora).
+
+
+Decoder (self.decoder): 
+𝑦
+𝑡
+=
+𝑊
+𝑦
+ℎ
+𝑡
++
+𝑏
+𝑦
+y
+t
+	​
+
+=W
+y
+	​
+
+h
+t
+	​
+
++b
+y
+	​
+
+ → loss uses cross-entropy over the vocab.
+
+Grad clip: combats exploding gradients, tying back to the original RNN pathology.
+
+Weight tying: decoder weight = embedding weight (optional but useful on small corpora).
